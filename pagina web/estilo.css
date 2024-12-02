@@ -1,0 +1,102 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+section.tema {
+  margin: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Estilos para el footer de nombres */
+.footer-nombres {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente en negro */
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-nombres p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.footer-nombres ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0;
+}
+
+.footer-nombres li {
+  margin: 2px 0;
+}
+
+/* Estilos para el gráfico */
+.grafico {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.grafico img {
+  width: 80%; /* Ajusta el tamaño según sea necesario */
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grafico p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Estilos para la galería de imágenes */
+.galeria-imagenes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.galeria-imagenes img {
+  width: 30%; /* Ajusta el tamaño de cada imagen */
+  max-width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.centrar-palabra {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
